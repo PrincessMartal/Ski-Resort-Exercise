@@ -1,11 +1,14 @@
 .box {
-  width: 300px;
+  border: 6px solid olive;
   height: 300px;
-  /* border: 1px solid grey; */
+  width: 300px;
+  font-size: 40px;
   margin: 0 auto;
-  border-radius: 10px;
-  /* box-shadow: 2px 2px 10px red, -2px -2px 10px blue; */
-  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
-    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
-    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+  overflow: hidden;
+}
+
+span {
+  width: 400px;
+  display: inline-block;
+  background-color: orangered;
 }
