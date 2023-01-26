@@ -1,14 +1,4 @@
-/* h1 {
-  margin-left: 80px;
-}
-
-p {
-  margin-left: 80px;
-}
-button {
-  margin-left: 80px;
-} */
-
-.container {
-  margin-left: 200px;
+h1 {
+  /* display: none; */
+  opacity: 0;
 }
